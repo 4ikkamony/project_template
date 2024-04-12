@@ -49,5 +49,5 @@ def read_file_pandas(file_path):
         text = '\n'.join(data['text'])
         return text
     except FileNotFoundError:
-        print(f"Файл {file_path} не знайдено.")
+        print(f"File {file_path} not found")
         return None
